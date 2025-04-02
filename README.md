@@ -24,13 +24,13 @@ detoxification_agentic_dataflow/
   Contains scripts to load and process the datasets. Employs UBC-NLP/toucan-base for text translation from African languages to English and ibm-granite/granite-3.2-2b-instruct for sentiment/toxicity classification, explanation generation, and detoxification.
 
 - **`Annotation_Statstics_notebook.ipynb`**  
-  A subset of toxicity_results.csv containing rows identified as "toxic", with three appended columns; an LLM-generated detoxified version of the original sentence and one detoxification score (1-10) from each author of this project. These statistics are evaluated 
+  Contains scripts to process `Detoxification Annotations.csv`, calculating different metrics for agreement, discussed further in `Final_Report.pdf`.
 
 ## Dataset
 
-- `Detoxification Annotations.csv`: Contains annotated sentences along with toxicity/sentiment labels and annotator agreement.
 - `multilingual-sentiment-test-solutions.csv`: Ground-truth data for evaluating multilingual sentiment analysis.
 - `toxic-test-solutions.csv`: Ground-truth data for evaluating toxicity classification accuracy.
+- `Detoxification Annotations.csv`: A subset of toxicity_results.csv containing rows identified as "toxic", with three appended columns; an LLM-generated detoxified version of the original sentence and one detoxification score (1-10) from each author of this project.
 
 ## Results
 
