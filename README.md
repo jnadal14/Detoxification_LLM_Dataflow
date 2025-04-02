@@ -1,5 +1,7 @@
 # COLX 565 Project – Agentic Detoxification Dataflow
 
+Tim Christilaw and Jacob Nadal
+
 This repository contains the code, data, and analysis for our COLX 565 project focused on **agentic workflows for text detoxification**. The goal of this project is to explore and evaluate the effectiveness of an agentic dataflow approach to reduce toxicity in text while preserving meaning and sentiment.
 
 ## Project Structure
